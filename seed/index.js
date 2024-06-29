@@ -7,7 +7,6 @@ const { join } = require('path')
 const { writeFile } = require('fs/promises')
 
 const seederBaseFolder = join(__dirname, '../', 'database')
-
 const ITEMS_AMOUNT = 2;
 
 function createRandomCustomer() {
@@ -59,9 +58,6 @@ async function saveData() {
   await write('cars.json', cars)
   await write('carCategory.json', [carCategory])
   await write('customers.json', customers)
-
-  console.log({ cars, carCategory })
 }
-
 
 saveData();

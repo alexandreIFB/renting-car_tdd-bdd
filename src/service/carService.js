@@ -6,12 +6,14 @@ class CarService {
     this.carRepository = new BaseRepository({ file: cars })
   }
 
-  getAvailableCar(data) {
-    return null
+  getAvailableCar(carCategory) {
+   const carId = this.chooseRandomCarId(carCategory)
+
+   return this.carRepository.find(carId);
   }
 
-  getRandomPositionFromArray(data) {
-    return Math.floor((data.length) * Math.random());
+  getRandomPositionFromArray(list) {
+    return Math.floor((list.length) * Math.random());
   }
 
   chooseRandomCarId(carCategory) {

@@ -7,7 +7,7 @@ const { join } = require('path')
 const { writeFile } = require('fs/promises')
 
 const seederBaseFolder = join(__dirname, '../', 'database')
-const ITEMS_AMOUNT = 2;
+const ITEMS_AMOUNT = 4;
 
 function createRandomCustomer() {
   return new Customer({

@@ -1,1 +1,30 @@
-[{"id":"8643784c-31f0-4b38-ae7c-bc064f710fb9","name":"Mercielago","releaseYear":2023,"available":true,"gasAvailable":true},{"id":"799c7368-de51-4f97-b90b-e9312ab27748","name":"Camaro","releaseYear":2023,"available":true,"gasAvailable":true}]
+[
+  {
+    "id": "d3b559f9-156c-49ac-99fa-f432f067c3c3",
+    "name": "Escalade",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "4b2c60fe-d5d9-4081-984e-851ff85d2beb",
+    "name": "Corvette",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "1c5b58a1-f123-4de4-8575-d77db3b680e4",
+    "name": "A4",
+    "releaseYear": 2024,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "9b53b2f9-ebd7-49b8-a43a-4f7e6d41b1f2",
+    "name": "A4",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  }
+]

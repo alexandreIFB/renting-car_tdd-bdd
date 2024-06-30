@@ -1,1 +1,13 @@
-[{"id":"bc0b8eb4-7bf2-4c08-ade3-473255a849f4","name":"Sedan","carIds":["8643784c-31f0-4b38-ae7c-bc064f710fb9","799c7368-de51-4f97-b90b-e9312ab27748"],"price":84.57}]
+[
+  {
+    "id": "c70f0cd3-9234-40be-98af-a4b30af3014c",
+    "name": "Coupe",
+    "carIds": [
+      "d3b559f9-156c-49ac-99fa-f432f067c3c3",
+      "4b2c60fe-d5d9-4081-984e-851ff85d2beb",
+      "1c5b58a1-f123-4de4-8575-d77db3b680e4",
+      "9b53b2f9-ebd7-49b8-a43a-4f7e6d41b1f2"
+    ],
+    "price": 70.91
+  }
+]
